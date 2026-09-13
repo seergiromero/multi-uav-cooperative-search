@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<sdf version="1.9">
+  <model name="target">
+    <static>true</static>
+    <link name="target_link">
+      <collision name="collision">
+        <geometry>
+          <cylinder>
+            <radius>0.25</radius>
+            <length>0.5</length>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <cylinder>
+            <radius>0.25</radius>
+            <length>0.5</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <diffuse>1 0.8 0 1</diffuse>
+          <ambient>0.6 0.5 0 1</ambient>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>
